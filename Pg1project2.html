@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<title>Delightful Dishes</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karma">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Verdana black", sans-serif}
+.w3-bar-block .w3-bar-item {padding:20px}
+</style>
+<body>
+
+<!-- Sidebar (hidden by default) -->
+<nav class="w3-sidebar w3-bar-block w3-card w3-top w3-xlarge w3-animate-left" style="display:none;z-index:2;width:40%;min-width:300px" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()"
+  class="w3-bar-item w3-button">Close Menu</a>
+  <a href="#food" onclick="w3_close()" class="w3-bar-item w3-button">Meal Specialties</a>
+  <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">About</a>
+</nav>
+
+<!-- Top menu -->
+<div class="w3-top">
+  <div class="w3-white w3-xlarge" style="max-width:1200px;margin:auto">
+    <div class="w3-button w3-padding-16 w3-left" onclick="w3_open()">☰</div>
+    <div class="w3-right w3-padding-16">Mail</div>
+    <div class="w3-center w3-padding-16">My Meal Specialties</div>
+  </div>
+</div>
+  
+<!-- !PAGE CONTENT! -->
+<div class="w3-main w3-content w3-padding" style="max-width:1200px;margin-top:100px">
+
+  <!-- First Photo Grid-->
+  <div class="w3-row-padding w3-padding-16 w3-center" id="food">
+    <div class="w3-quarter">
+      <img src="_imglobmacand chees.jpg" alt="mac and cheese" style="width:100%">
+      <h3>The ultimate mac and cheese. A Real people pleaser Classic</h3>
+      <p>Comfort foods are great dishes for sunday dinner ideas, this lobster mac and cheese is so creamy and delicious and a must have for special dinner night.  </p>
+    </div>
+    <div class="w3-quarter">
+      <img src="_imgtomasteak.jpg" alt="Steak" style="width:100%">
+      <h3>Best Steak I ever ate</h3>
+      <p> This tomahawk steak is top-of-the-line! The meat is so juicy and tender, and you will most likey name it is your favorite steak to eat.</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="_imgporkchop.jpg" alt="pork chops" style="width:100%">
+      <h3>Honey Balsamic Pork Chops</h3>
+      <p>These pork chops are to die for. The recipe is fairly easy to prepare and absolutely delicious.</p>
+      <p>What else could you ask for?</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="_imgshrimpandscallops.jpg" alt="Pasta" style="width:100%">
+      <h3>Shrimp and Scallops Fettuccine Alfredo</h3>
+      <p> This is Italian cuisine at it's finest.</p>
+    </div>
+  </div>
+  
+  <!-- Second Photo Grid-->
+  <div class="w3-row-padding w3-padding-16 w3-center">
+    <div class="w3-quarter">
+      <img src="_imgoxtails.jpg" alt="Oxtails" style="width:100%">
+      <h3>Jamaican Oxtails</h3>
+      <p>This is a must try, the gravy and the meat is really tasty combination. This meal rocks!</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="_imggrouper.jpg" alt="Grouper" style="width:100%">
+      <h3>Prime Catch Grouper</h3>
+      <p>This fish is prepared the greatest way, it's really nice to try and it's healthy</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="_imgburgers.jpg" alt="burger" style="width:100%">
+      <h3>The King of Burgers</h3>
+      <p>This burger is a bar favorite, and the nicest stacked burger in town.</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="_imgicecreamsundae.jpg" alt="ice cream" style="width:100%">
+      <h3>The Sweet Stuff! Perfect Ice Cream Sundae</h3>
+      <p>This dessert is fabolous and almost to good to be true</p>
+    </div>
+  </div>
+
+  <!-- Pagination -->
+  <div class="w3-center w3-padding-32">
+    <div class="w3-bar">
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">«</a>
+      <a href="#" class="w3-bar-item w3-black w3-button">1</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">2</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">3</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">4</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">»</a>
+    </div>
+  </div>
+  
+  <hr id="about">
+
+  <!-- About Section -->
+  <div class="w3-container w3-padding-32 w3-center">  
+    <h3>About Me, The Food Critic</h3><br>
+    <img src="_imgaboutme.jpg" alt="Me" class="w3-image" style="display:block;margin:auto" width="800" height="533">
+    <div class="w3-padding-32">
+      <h4><b>I've always loved the best foods.</b></h4>
+      <h6><i>With Passion for Fine Dining</i></h6>
+      <p>Just taking one day at a time, exploring restuarants trying new things.  There is so many places that are really great to go eat from and so many different varieties on their menus to try to find your favorite dish from the ktichen.  Going places seeing what foods are the best to eat has been my life.</p>
+    </div>
+  </div>
+  <hr>
+  
+  <!-- Footer -->
+  <footer class="w3-row-padding w3-padding-32">
+    <div class="w3-third">
+      <h3>FOOTER</h3>
+      <p>Present new items from menus to try and give a review of what you think about the dish.  Would you recommend it? Yes or No?</p>
+      <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+    </div>
+  
+    <div class="w3-third">
+      <h3>BLOG POSTS</h3>
+      <ul class="w3-ul w3-hoverable">
+        <li class="w3-padding-16">
+          <img src="_imgblog.jpg" class="w3-left w3-margin-right" style="width:50px">
+          <span class="w3-large">New Restuarant</span><br>
+          <span>Be first to try what's on the menu and give a review.</span>
+        </li>
+        <li class="w3-padding-16">
+          <img src="_imgblog2.jpg" class="w3-left w3-margin-right" style="width:50px">
+          <span class="w3-large">Ideal dining</span><br>
+          <span>Waterfront restuarants</span>
+        </li> 
+      </ul>
+    </div>
+
+    <div class="w3-third w3-serif">
+      <h3>POPULAR TAGS</h3>
+      <p>
+        <span class="w3-tag w3-black w3-margin-bottom">Five Star Dining</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">California</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Dinner</span>
+        <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Grouper</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Italy</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Drinks</span>
+        <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Dinner Ideas</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Varieties</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Cuisine</span>
+        <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Chicken</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Wolfgang Puck</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Fried</span>
+        <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Fish</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Pork</span>
+      </p>
+    </div>
+  </footer>
+
+<!-- End page content -->
+</div>
+
+<script>
+// Script to open and close sidebar
+function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+}
+ 
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+</script>
+
+</body>
+</html>
